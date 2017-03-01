@@ -9,8 +9,8 @@ RUN yum -y install epel-release && \
     yum -y install gcc && \
     yum -y install openssl-devel && \
     pip install --upgrade pip && \
-    git clone https://github.schq.secious.com/Logrhythm/aic-pipeline-meta.git && \
-    cd aic-pipeline-meta && \
+    git clone https://github.com/jonathanmyers/tf.git && \
+    cd tf && \
     git checkout master && \
     git pull && \
     pip install -r requirements.txt && \
